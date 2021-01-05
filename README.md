@@ -3,13 +3,13 @@ PREDAIP uses machine learning algorithms to accurately predict anti-inflammatory
 
 # Installation
 * Install Python 3.7 (https://www.python.org/downloads/) in Linux and Windows.
-* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. In order for the program to run successfully, the following modules need to be pre-installed in Python 3.7.
+* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. PREDAIP uses the following dependencies: numpy(1.16.3), pandas(0.24.2), matplotlib(3.0.3), scipy(1.2.1), sklearn(0.20.3). You can install these packages first, by the following commands.
 ```
 pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scipy
-pip install scikit-learn
+pip install sklearn
 ```
 * If you meet an error after inputting above commands in Linux, the specific contents are as follows:
 </br>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python3.7/dist-packages/sklearn'
@@ -27,14 +27,15 @@ pip install scikit-learn --user
 Download the ‘.py’ files.
 Open cmd in Windows or terminal in Linux, then cd to the PREDAIP-master/codes folder which contains predict.py
 </br>**For AIP prediction using our model, run:**
-</br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [ predicting results in csv format]` 
+</br>`python predict.py -input [custom predicting data in txt format] -threshold [threshold value] -output [predicting results in csv format]` 
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5 -output ../codes/results.csv`
 </br>-output is optional parameter, while -input and -threshold are required parameters. Prediction results will show in the cmd or terminal, and if you don't want to save results, you need not input -output.
 
 </br>**Example:**
 </br>`python predict.py -input ../codes/example.txt -threshold 0.5`
-</br>**For details of -input,-threshold and -output, run:**
+
+</br>**For details of -input, -threshold and -output, run:**
 </br>`python predict.py -h`
 
 # Announcements
