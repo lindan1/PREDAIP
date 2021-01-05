@@ -3,13 +3,13 @@ PREDAIP uses machine learning algorithms to accurately predict anti-inflammatory
 
 # Installation
 * Install Python 3.7 (https://www.python.org/downloads/) in Linux and Windows.
-* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. PREDAIP uses the following dependencies: numpy(1.16.3), pandas(0.24.2), matplotlib(3.0.3), scipy(1.2.1), sklearn(0.20.3). You can install these packages first, by the following commands.
+* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. PREDAIP uses the following dependencies: numpy, pandas, matplotlib, scipy, sklearn(version == 0.20.3). You can install these packages first, by the following commands:
 ```
 pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scipy
-pip install sklearn
+pip install sklearn==0.20.3
 ```
 * If you meet an error after inputting above commands in Linux, the specific contents are as follows:
 </br>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python3.7/dist-packages/sklearn'
