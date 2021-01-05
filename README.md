@@ -3,7 +3,7 @@ PREDAIP uses machine learning algorithms to accurately predict anti-inflammatory
 
 # Installation
 * Install Python 3.7 (https://www.python.org/downloads/) in Linux and Windows.
-* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. PREDAIP uses the following dependencies: numpy, pandas, matplotlib, scipy, sklearn(version == 0.20.3). You can install these packages first, by the following commands:
+* Because the program is written in Python 3.7, python 3.7 with the pip tool must be installed first. PREDAIP uses the following dependencies: numpy, pandas, matplotlib, scipy, sklearn version == 0.20.3. You can install these packages first, by the following commands:
 ```
 pip install numpy
 pip install pandas
