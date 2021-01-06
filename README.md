@@ -9,7 +9,7 @@ pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scipy
-pip install sklearn==0.20.3
+pip install sklearn
 ```
 * If you meet an error after inputting above commands in Linux, the specific contents are as follows:
 </br>Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python3.7/dist-packages/sklearn'
